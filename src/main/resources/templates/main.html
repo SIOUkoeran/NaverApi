@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th = "http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>main</title>
+</head>
+<body>
+    <div class="container">
+        <div class="form-group">
+            <form action="/"  th:object = "${searchForm}" method = Post>
+            <input type = "text" id ="title" name = "title" th:field = "*{title}"  placeholder="검색어를 입력하세요">
+                <button type="submit" class="btn btn-primary block full-width m-b">/</button>
+            </form>
+
+        </div>
+    </div>
+</body>
+</html>

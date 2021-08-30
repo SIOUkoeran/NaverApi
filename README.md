@@ -1,5 +1,6 @@
-# NaverApi
-## WebClient 사용 
+# MovieReview Service MSA (using NaverApi)
+
+## 
 
 
 localhost:8080
